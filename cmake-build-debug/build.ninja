@@ -84,6 +84,12 @@ build CMakeFiles/ExerciseCPP.dir/SingletonPattern/Singleton.cpp.o: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles/ExerciseCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/ExerciseCPP.dir/SingletonPattern
 
+build CMakeFiles/ExerciseCPP.dir/ThreadPool.cpp.o: CXX_COMPILER__ExerciseCPP_Debug /cygdrive/e/Notes/ExerciseCPP/ThreadPool.cpp || cmake_object_order_depends_target_ExerciseCPP
+  DEP_FILE = CMakeFiles/ExerciseCPP.dir/ThreadPool.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ExerciseCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/ExerciseCPP.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ExerciseCPP
@@ -92,7 +98,7 @@ build CMakeFiles/ExerciseCPP.dir/SingletonPattern/Singleton.cpp.o: CXX_COMPILER_
 #############################################
 # Link the executable ExerciseCPP.exe
 
-build ExerciseCPP.exe: CXX_EXECUTABLE_LINKER__ExerciseCPP_Debug CMakeFiles/ExerciseCPP.dir/main.cpp.o CMakeFiles/ExerciseCPP.dir/SingletonPattern/Singleton.cpp.o
+build ExerciseCPP.exe: CXX_EXECUTABLE_LINKER__ExerciseCPP_Debug CMakeFiles/ExerciseCPP.dir/main.cpp.o CMakeFiles/ExerciseCPP.dir/SingletonPattern/Singleton.cpp.o CMakeFiles/ExerciseCPP.dir/ThreadPool.cpp.o
   FLAGS = -g
   LINK_FLAGS = -Wl,--enable-auto-import
   OBJECT_DIR = CMakeFiles/ExerciseCPP.dir
